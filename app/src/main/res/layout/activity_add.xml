@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1ECB1"
+
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm danh sách cây xanh "
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtTkh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên khoa học của cá"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtTtg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên thường gọi"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtDt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đặc tính của cá"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtmau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập màu sắc cá"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:backgroundTint="@color/teal_200"
+        android:layout_gravity="center"
+        android:text="Add"/>
+</LinearLayout>

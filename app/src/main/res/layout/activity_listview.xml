@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#D1ECB1"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTenKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Tên khoa học cá sẽ hiện ở đây"/>
+
+
+        <TextView
+            android:id="@+id/txtTenThuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Tên thường cá sẽ hiện ở đây"/>
+        <TextView
+            android:id="@+id/txtDacTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Đặc tính cá sẽ hiện ở đây"/>
+        <TextView
+            android:id="@+id/txtMauLa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Màu sắc cá sẽ hiện ở đây"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:src="@drawable/ic_baseline_menu_24"/>
+
+
+</FrameLayout>
