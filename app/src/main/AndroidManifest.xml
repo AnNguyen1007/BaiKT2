@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuanLyCa"
         tools:targetApi="31">
+        <activity android:name=".MainActivity">
+
+        </activity>
         <activity
             android:name=".LoginActivity"
             android:exported="true">
